@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Search</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="div_right">
+        <table>
+            <thead>
+                <tr>
+                    <th><a class="nav-link" href="./index.html">Serach</a></th>
+                    <th><a class="nav-link" href="./images.html"> Image Search</a></th>
+                    <th><a class="nav-link" href="#">Advance Search</a></th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+    <header>
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo" height="20px">
+        <h3>Advanced Search</h3>
+        <hr>
+    </header>
+
+    <div>
+        <form action="https://www.google.com/search" class="formleft">
+            <div>Find pages with...</div>
+
+            <div>
+                <label for="all-words">All these words:</label>
+                <input type="text" id="all-words" name="as_q">
+            </div>
+
+            <div>
+                <label for="exact-phrase">This exact word or phrase:</label>
+                <input type="text" id="exact-phrase" name="as_epq">
+            </div>
+
+            <div>
+                <label for="any-words">Any of these words:</label>
+                <input type="text" id="any-words" name="as_oq">
+            </div>
+
+            <div>
+                <label for="none-words">None of these words:</label>
+                <input type="text" id="none-words" name="as_eq">
+            </div>
+            <div>
+                <input type="submit" value="Advanced Search" class="div_right">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
